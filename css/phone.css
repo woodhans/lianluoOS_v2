@@ -99,10 +99,10 @@ body{ background:#f7f7f7;overflow:hidden;}
 .page12 .sider_box{ left:auto; right:0; -webkit-transform:translate3d(554px,0,0);-ms-transform:translate3d(554px,0,0);-moz-transform:-moz-translate3d(554px,0,0);}
 .page21 .sider_box{ left:auto; right:0;-webkit-transform:translate3d(554px,0,0);-ms-transform:translate3d(554px,0,0);-moz-transform:-moz-translate3d(554px,0,0);}
 
-.page11 .sider_box .bg_layer{background: url(../img/colorbg_phone.png) right center no-repeat;}
-.page13 .sider_box .bg_layer{background: url(../img/colorbg_vr.png) right center no-repeat;}
-.page12 .sider_box .bg_layer{background: url(../img/colorbg_watch.png) left center no-repeat;}
-.page21 .sider_box .bg_layer{background: url(../img/colorbg_car.png) left center no-repeat;}
+.page11 .sider_box .bg_layer{background: url(../img/colorbg_phone.png) right center no-repeat; background-size: cover;}
+.page13 .sider_box .bg_layer{background: url(../img/colorbg_vr.png) right center no-repeat; background-size: cover;}
+.page12 .sider_box .bg_layer{background: url(../img/colorbg_watch.png) left center no-repeat; background-size: cover;}
+.page21 .sider_box .bg_layer{background: url(../img/colorbg_car.png) left center no-repeat; background-size: cover;}
 .cur .sider_box{-webkit-transform:translateX(-0);-ms-transform:translateX(-0);-moz-transform:translateX(-0);}
 
 .sider_box .icon{ display:block;position:absolute; left:50%; top:50%; -webkit-transition:-webkit-transform ease .5s 0.8s,opacity ease .5s 0.8s; -webkit-transform:translate3d(0, 50px,0);-ms-transition:-ms-transform ease .5s 0.8s,opacity ease .5s 0.8s; -ms-transform:-ms-translate3d(0, 50px,0); -moz-transition:-moz-transform ease .5s 0.8s,opacity ease .5s 0.8s; -moz-transform:-moz-translate3d(0, 50px,0);opacity:0;}
@@ -111,9 +111,9 @@ body{ background:#f7f7f7;overflow:hidden;}
 .sider_box .txt h2{ font-size:18px; color:#fff; margin-bottom:16px; font-weight:normal;}
 .sider_box .txt p{ font-size:16px; color:#fff; opacity:0.6; line-height:1.6;}
 .page11 .icon{margin-top: -200px; margin-left: -73px;}
-.page12 .sider_box .icon{}
-.page13 .sider_box .icon{}
-.page21 .sider_box .icon{}
+.page12 .sider_box .icon{margin-top: -190px; margin-left: -80px;}
+.page13 .sider_box .icon{margin-top: -100px; margin-left: -100px;}
+.page21 .sider_box .icon{margin-top: -130px;margin-left: -90px;}
 .cur .sider_box .icon,.cur .sider_box svg{-webkit-transform:translate3d(0, 0,0); opacity:1;}
 .cur .sider_box .txt{-webkit-transform:translate3d(0, 0,0); opacity:1;}
 
