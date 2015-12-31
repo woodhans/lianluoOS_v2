@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Description" content="" />
+<meta name="Keywords" content="" />
+<title>联络出品 - 合作模式</title>
+<link href="css/common.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="img/favicon.ico" />
+</head>
+<body style="background:url(images/pro_bg.png)">
+<div id="header">
+	<div class="headerMain">
+		<div class="headerLogo"> 
+			<a href="phone.html"> <img src="images/top_logo.png" data-original="images/top_logo.png" alt="" /> </a> 
+		</div>
+		<div class="headerMenu">
+			<ul>
+				<li><a href="phone.html">首页</a> </li>
+				<li><a href="launcher.html">联络老人桌面</a></li>
+				<li><a class="aClick" href="cooperation.html">合作模式</a></li>
+			</ul>
+		</div>
+    </div>
+</div>
+<div class="coo_banner"> 
+  	<img src="images/banner_coo.png" data-original="images/banner_coo.png" alt="" />
+</div>
+
+
+<div class="coo_content"> 
+    <div class="navigation"> 
+		<div class="section"> 
+			<ol class="title"> 
+				<li forcontent="recweb" class="hover"> 合作模式 </li> 
+				<li forcontent="social"> 我们的伙伴 </li> 
+			</ol> 
+			<div class="content-wrap"> 
+				<div id="recweb" class="content" style="display:block"> 
+				    <div class="coo_type"> 
+					    <div class="coo_typeTitle"> 
+					    	<img src="images/coo_text.png" data-original="images/coo_text.png" alt="" /> 
+					    	<p>基于厂家代码底包制作ROM 为B2B用户提供全套移植包</p> 
+					    </div> 
+					    <div class="coo_typeText"> 
+					    	<p>联络OS是基于谷歌Android开源代码，针对国内用户使用习惯，做本地化的深度优化、定制、 用户体验开发的智能手机操系统；它不仅提供酷炫的桌面、锁屏、在线主题、壁纸、智能通讯录、拨号、短信/彩信的核心功能，爱号、备份助手、联络短信、防骚扰及语言助手等贴心功能，还提供统计分析、渠道升级、个性化UI配置、内容运营、计费分账的后台服务。</p> 
+					    </div> 
+					    <div class="coo_typeTable"> 
+					    	<img src="images/coo_table.png" data-original="images/coo_table.png" alt="" /> 
+					    </div> 
+				    </div> 
+			    </div> 
+				<div id="social" class="content"> 
+				    <div class="coo_mate"> 
+				    	<p> 联络OS智能手机操作系统已搭载众多手机厂商，预计出货量将为百万级别，用户活跃度高，内置应用将得到最大化使用。期待广大应用开发商的加盟。 </p> 
+					    <div class="coo_mateLogo"> 
+					    	<div class="coo_mateLogo01"> 
+					    		<div class="coo_s1"> 
+					    			<a></a> 
+					    			<span>UC浏览器</span> 
+					    		</div> 
+					    		<div class="coo_s2"> 
+					    			<a></a> 
+					    			<span>九游游戏</span> 
+					      		</div> 
+					    		<div class="coo_s3"> 
+					    			<a></a> 
+					    			<span>支付宝</span> 
+					    		</div> 
+					    		<div class="coo_s4"> 
+					    			<a></a> 
+					    			<span>百度搜索</span> 
+					    		</div> 
+					     	</div> 
+					    	<div class="coo_mateLogo02"> 
+					    		<div class="coo_s5"> 
+					       		<a></a> 
+					       		<span>中国移动游戏基地</span> 
+					      	</div> 
+					      	<div class="coo_s6"> 
+					       		<a></a> 
+					       		<span>百度输入法</span> 
+					      	</div> 
+					      	<div class="coo_s7"> 
+					       		<a></a> 
+					       		<span>中国移动视基地</span> 
+					      	</div> 
+					      	<div class="coo_s8"> 
+					       		<a></a> 
+					       		<span>蛙蛙斗地主</span> 
+					      	</div> 
+					    </div> 
+				    </div> 
+				</div> 
+			</div> 
+			<!-- content-wrap end -->
+			<div class="clear"></div>
+		</div> 
+		<!-- section -->
+	</div>
+	<!-- navigation -->
+</div>
+<!-- coo_content -->
+</div>
+
+
+<div id="foot">
+	<div class="food_left">
+    	<a href="http://www.lianluo.com">联络官网&nbsp;</a>·&nbsp;
+    	<a href="http://os.lianluo.com">联络OS&nbsp;</a>·&nbsp;
+    	<a href="aboutUs.html">联系我们</a><br>
+        ©2012北京数字天域科技有限责任公司. 版权所有 京ICP备13016972号
+    </div>
+</div>
+<script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(function () {
+		 var titles=$(".title li");
+         var contents = $(".navigation .content");
+         titles.click(function () {
+             titles.removeClass("hover");
+             var $this = $(this).addClass("hover");
+             var forContent = $this.attr("forContent");
+             contents.hide();
+             $("#" + forContent).show();
+         });
+     });   
+</script>
+</body>
+</html>
+
